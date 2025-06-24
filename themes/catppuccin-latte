@@ -14,9 +14,9 @@ palette = 12=#45707a
 palette = 13=#945e80
 palette = 14=#4c7a5d
 palette = 15=#e8e3c8
-background = f9f5d7
-foreground = 654735
-cursor-color = dc8a78
-cursor-text = eff1f5
-selection-background = d8dae1
-selection-foreground = 4c4f69
+background = #f9f5d7
+foreground = #654735
+cursor-color = #b47109
+cursor-text = #eff1f5
+selection-background = #d8dae1
+selection-foreground = #4c4f69
