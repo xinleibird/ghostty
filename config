@@ -1,0 +1,51 @@
+# font
+font-family = "JetBrains Mono"
+font-family = "JetBrainsMono Nerd Font Mono"
+font-family = "Maple Mono CN"
+font-size = 13.5
+font-thicken = true
+font-thicken-strength = 128
+alpha-blending = native
+bold-is-bright = true
+
+# linespace
+#adjust-cell-height = -1
+
+# theme
+theme = dark:catppuccin-mocha,light:catppuccin-latte
+
+# window
+window-height = 40
+window-width = 140
+window-padding-x = 0
+window-padding-y = 0
+window-position-x = 136
+window-position-y = 100
+window-colorspace = display-p3
+
+# close last window to quit
+quit-after-last-window-closed = true
+
+# cursor
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+mouse-hide-while-typing = true
+adjust-cursor-thickness = 2
+
+# quick-terminal
+quick-terminal-position = center
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+# disable write_screen_file keybind
+keybind = super+alt+shift+j=unbind
+keybind = super+shift+j=unbind
+
+# icon
+macos-icon = chalkboard
+macos-icon-frame = chrome
+
+# shader
+#custom-shader = ./shaders/smoke-and-ghost.glsl
+
+# update
+auto-update = off
