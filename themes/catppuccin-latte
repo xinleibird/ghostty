@@ -1,22 +1,40 @@
-palette = 0=#8c6249
-palette = 1=#c14a4a
-palette = 2=#6c782e
-palette = 3=#b47109
-palette = 4=#45707a
-palette = 5=#945e80
-palette = 6=#4c7a5d
-palette = 7=#805942
-palette = 8=#73503c
-palette = 9=#c14a4a
-palette = 10=#6c782e
-palette = 11=#b47109
-palette = 12=#45707a
-palette = 13=#945e80
-palette = 14=#4c7a5d
-palette = 15=#e8e3c8
+# 基础背景与前景 (Light Mode)
 background = #f9f5d7
 foreground = #654735
 cursor-color = #b47109
-cursor-text = #eff1f5
-selection-background = #d8dae1
-selection-foreground = #4c4f69
+selection-background = #dfcfd9
+selection-foreground = #654735
+
+# ANSI 颜色定义
+# 0 & 8: 黑色/灰色 (使用 Overlay0 和 Overlay1)
+palette = 0=#a69d81
+palette = 8=#8c856d
+
+# 1 & 9: 红色 (Red / Rosewater)
+palette = 1=#c14a4a
+palette = 9=#c14a4a
+
+# 2 & 10: 绿色 (Green / Teal)
+palette = 2=#6c782e
+palette = 10=#4c7a5d
+
+# 3 & 11: 黄色 (Yellow / Peach)
+palette = 3=#b47109
+palette = 11=#c35e0a
+
+# 4 & 12: 蓝色 (Blue / Lavender)
+palette = 4=#45707a
+palette = 12=#45707a
+
+# 5 & 13: 品红/紫色 (Pink / Mauve)
+palette = 5=#945e80
+palette = 13=#945e80
+
+# 6 & 14: 青色 (Sapphire / Sky)
+palette = 6=#4c7a5d
+palette = 14=#4c7a5d
+
+# 7 & 15: 白色 (Surface2 / Base)
+# 在浅色模式下，ANSI White 通常设为比背景略深的颜色或最亮的文字颜色
+palette = 7=#bfb695
+palette = 15=#654735

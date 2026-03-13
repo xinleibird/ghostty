@@ -1,22 +1,39 @@
-palette = 0=#292929
-palette = 1=#ea6962
-palette = 2=#89b482
-palette = 3=#d8a657
-palette = 4=#7daea3
-palette = 5=#d3869b
-palette = 6=#a9b665
-palette = 7=#595959
-palette = 8=#404040
-palette = 9=#ea6962
-palette = 10=#89b482
-palette = 11=#d8a657
-palette = 12=#7daea3
-palette = 13=#d3869b
-palette = 14=#a9b665
-palette = 15=#4d4d4d
+# 基础背景与前景
 background = #1d2021
 foreground = #ebdbb2
 cursor-color = #d8a657
-cursor-text = #1e1e2e
-selection-background = #353749
-selection-foreground = #cdd6f4
+selection-background = #54363e
+selection-foreground = #ebdbb2
+
+# ANSI 颜色定义
+# 黑色 (Base / Overlay1)
+palette = 0=#1d2021
+palette = 8=#928374
+
+# 红色 (Red / Rosewater)
+palette = 1=#ea6962
+palette = 9=#ea6962
+
+# 绿色 (Green / Teal)
+palette = 2=#a9b665
+palette = 10=#89b482
+
+# 黄色 (Yellow / Peach)
+palette = 3=#d8a657
+palette = 11=#e78a4e
+
+# 蓝色 (Blue / Lavender)
+palette = 4=#7daea3
+palette = 12=#7daea3
+
+# 品红/紫色 (Pink / Mauve)
+palette = 5=#d3869b
+palette = 13=#d3869b
+
+# 青色 (Sapphire / Sky)
+palette = 6=#89b482
+palette = 14=#89b482
+
+# 白色 (Subtext1 / Text)
+palette = 7=#d5c4a1
+palette = 15=#ebdbb2
