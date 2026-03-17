@@ -4,6 +4,8 @@ font-family = "JetBrainsMono Nerd Font Mono"
 font-family = "Maple Mono CN"
 font-size = 13.5
 font-thicken = true
+font-style = Light
+font-style-bold = Bold
 font-thicken-strength = 128
 alpha-blending = native
 bold-is-bright = true
@@ -43,8 +45,7 @@ keybind = super+alt+shift+j=unbind
 keybind = super+shift+j=unbind
 
 # icon
-macos-icon = chalkboard
-macos-icon-frame = chrome
+macos-icon = custom
 
 # shader
 #custom-shader = ./shaders/smoke-and-ghost.glsl
