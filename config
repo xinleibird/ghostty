@@ -1,13 +1,10 @@
 # font
-font-family = "JetBrains Mono"
-font-family = "JetBrainsMono Nerd Font Mono"
-font-family = "Maple Mono CN"
+font-family = JetBrains Mono
+font-family = JetBrainsMono Nerd Font Mono
+font-family = Maple Mono CN
 font-size = 13.5
 font-thicken = true
-font-style = Light
-font-style-bold = Bold
 font-thicken-strength = 128
-alpha-blending = native
 bold-is-bright = true
 
 # linespace
@@ -39,7 +36,7 @@ adjust-cursor-thickness = 2
 quick-terminal-position = center
 quick-terminal-size = 1300px,50%
 keybind = global:cmd+grave_accent=toggle_quick_terminal
-#keybind = global:cmd+j=toggle_quick_terminal
+
 # disable write_screen_file keybind
 keybind = super+alt+shift+j=unbind
 keybind = super+shift+j=unbind
@@ -59,3 +56,5 @@ macos-titlebar-proxy-icon = hidden
 
 # bell
 bell-features = no-attention
+
+scrollback-limit = 50000

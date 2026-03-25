@@ -37,3 +37,7 @@ palette = 14=#89b482
 # 白色 (Subtext1 / Text)
 palette = 7=#d5c4a1
 palette = 15=#ebdbb2
+
+# 字体样式
+font-style = Light
+font-style-bold = Medium

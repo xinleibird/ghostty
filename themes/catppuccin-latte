@@ -38,3 +38,7 @@ palette = 14=#4c7a5d
 # 在浅色模式下，ANSI White 通常设为比背景略深的颜色或最亮的文字颜色
 palette = 7=#bfb695
 palette = 15=#654735
+
+# 字体样式
+font-style = Regular
+font-style-bold = SemiBold
